@@ -1,0 +1,16 @@
+{
+    "pre_flight_checklist": [
+        {"action": "atis_weather", "instruction": "Retrieve current weather via ATIS."},
+        {"action": "notams_review", "instruction": "Review the active NOTAMs."},
+        {"action": "flight_plan_cross_check", "instruction": "Cross-check the computerized flight plan."},
+        {"action": "fuel_requirements_verify", "instruction": "Verify total fuel requirements."},
+        {"action": "diversion_fuel_confirm", "instruction": "Confirm minimum diversion fuel."},
+        {"action": "route_payload_analyze", "instruction": "Analyze the route payload weights."},
+        {"action": "zero_fuel_weight_check", "instruction": "Check the zero-fuel weight configuration."},
+        {"action": "cg_limits_verify", "instruction": "Verify center of gravity limits."},
+        {"action": "takeoff_performance_calculate", "instruction": "Calculate take-off performance metrics."},
+        {"action": "v1_speed_determine", "instruction": "Determine optimal V1 speed."},
+        {"action": "vr_speed_determine", "instruction": "Determine optimal VR speed."},
+        {"action": "v2_speed_determine", "instruction": "Determine optimal V2 speed."}
+    ]
+}
